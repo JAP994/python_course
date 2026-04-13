@@ -12,4 +12,4 @@ print(type(5)) # tipo 'int'
 print(type(1.5)) # tipo 'float'
 print(type(True)) # tipo 'bool'
 
-#hola 
+# Nuevo cambio
