@@ -8,7 +8,6 @@ number_two = "1"
 try:
     print(number_one + number_two)
     print("No se ha producido el error")
-except TypeError as error:
+except Exception as error:
     print("Se ha producido el TypeError", error)
-except ValueError as error:
-    print("Se ha producido el ValueError", error)
+    
