@@ -21,3 +21,16 @@ def print_name(name, surname):
     print(f'{name} {surname}')
 
 print_name("Jonathan", "Sanchez")
+
+def print_name(name, surname, alias = "Sin alias"):
+    print(f'{name} {surname} {alias}')
+
+print_name("Jonathan", "Sanchez", "Suco")
+print_name("Jonathan", "Sanchez")
+
+# IMPRIMIR TODOS LOS TEXTOS EN MATUSCULAS
+def print_texts(*texts):
+    for text in texts:
+        print(text.upper())
+
+print_texts("hola", "python", "mp")
