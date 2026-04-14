@@ -19,3 +19,8 @@ print('mi nombre es %s %s y mi edad es %d' %(name, surname, age))
 
 # INFERENCIA DE DATOS
 print(f'mi nombre es {name} {surname} y mi edad es {age}')
+
+print(my_strings.upper())
+print(my_strings.upper().isupper())
+print(my_strings.lower())
+print(my_strings.capitalize())
