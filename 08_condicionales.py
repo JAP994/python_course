@@ -21,7 +21,7 @@ print("La ejecucion continua")
 
 # TENEMOS DIFERENTES CONDICIONALES AQUI SE PUEDEN USAR LOS OPERADORES
 # and, or, not, etc.
-
+my_condition = 1
 if my_condition  > 10 and my_condition  < 20:
 	print("Es mayor que 10 y menor que 20")
 elif my_condition  == 1:
